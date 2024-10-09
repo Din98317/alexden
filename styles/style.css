@@ -375,6 +375,11 @@ label input[type=checkbox] {
   z-index: -1;
 }
 
+.dress-code {
+  display: flex;
+  align-items: center;
+}
+
 .timing__section::after {
   content: " ";
   width: 100%;
