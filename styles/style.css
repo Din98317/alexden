@@ -1,0 +1,392 @@
+.bgvideo {
+  position: fixed;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: max(668px, 100vh);
+  justify-content: space-around;
+  font-family: var(--font-family);
+  font-weight: 400;
+  background-color: transparent;
+}
+
+.header__title {
+  font-size: 20px;
+  color: var(--title-color);
+}
+
+.header__title-name {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: var(--font-text);
+  font-weight: 400;
+  font-size: 40px;
+  color: var(--title-color);
+}
+
+.header__description {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-data);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--title-color);
+  font-weight: 400;
+}
+
+.header__description-date {
+  font-size: 40px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.content {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: 30px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  color: var(--title-color);
+}
+
+.title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 16px;
+  text-align: center;
+  margin-inline: 26px;
+}
+
+.timing__container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.time {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--title-color);
+}
+
+.color__container {
+  margin-inline: 27px;
+}
+
+.image__containet {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 16px;
+  row-gap: 26px;
+  margin-inline: 21px;
+}
+
+.image {
+  width: 100px;
+  height: 170px;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.prompt__card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.prompt__section {
+  position: relative;
+}
+
+.prompt__card {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  grid-template-rows: min-content 1fr;
+  column-gap: 10px;
+}
+
+.prompt-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  grid-row: 1/2;
+}
+
+.prompt__card-title {
+  grid-column: 2/2;
+  grid-row: 1/2;
+  text-align: left;
+  margin-block-end: 10px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.prompt__description {
+  grid-column: 2/2;
+  grid-row: 1/2;
+  margin-block-start: 30px;
+  text-align: left;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 208%;
+}
+
+.number {
+  .number {
+    text-underline-position: under;
+  }
+}
+
+
+
+.location__title {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  text-align: left;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.location__description {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  text-align: left;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 15px;
+}
+
+/*  */
+
+.rsvp {
+  border: none;
+  margin-inline: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+
+.guests h2 {
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+
+.guests input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: none;
+}
+
+.guests button {
+  height: 35px;
+  outline: none;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.guests button:hover {
+  transform: scale(1.1);
+  background: rgb(233, 150, 122);
+  color: #fff;
+}
+
+#sendText {
+  color: green;
+  margin-top: 15px;
+  display: block;
+  text-align: center;
+}
+
+fieldset {
+  border: none;
+}
+
+#sendText {
+  color: green;
+  margin-top: 15px;
+  display: block;
+  text-align: center;
+}
+
+.guests {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block-start: 30px;
+}
+
+label {
+  margin-block-start: 1px;
+}
+
+.card {
+  display: flex;
+  justify-items: start;
+}
+
+.phone {
+  margin-block-start: 10px;
+  text-align: center;
+}
+
+.block {
+  background-color: transparent;
+  outline: 1px solid #000;
+  text-align: center;
+}
+
+body {
+  max-width: 500px;
+}
+
+.options {
+  position: relative;
+  width: 350px;
+  appearance: none;
+  background: Transparent;
+  color: #000;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  padding: 10px 9px;
+  margin: 0;
+  border-radius: 3px;
+  cursor: pointer;
+  height: 38px;
+  outline: 1px solid #000;
+  text-align: center;
+}
+
+.search__form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+label input[type=checkbox] {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  display: block;
+  width: 0;
+  height: 0;
+}
+
+.checkbox + .pseudo-checkbox {
+  display: flex;
+  border: 1px solid #000;
+  width: 20px;
+  height: 20px;
+}
+
+.checkbox[type='checkbox']:checked + span::after {
+  content:'';
+  background-color: #000;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  border: 2px solid #c5bebe;
+  width: 18px;
+  height: 18px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.button {
+  background-color: transparent;
+  outline: 1px solid rgb(233, 150, 122);
+  width: 200px;
+  height: 35px;
+  align-self: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__title {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-text);
+  font-weight: 600;
+  color: var(--title-color);
+}
+
+.alcohol__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.dress-code::after, .prompt__section:after, .location__section:after {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+  z-index: -1;
+}
+
+.timing__section::after {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  opacity: 30%;
+  position: absolute;
+  z-index: -1;
+}
+
+.image__card {
+  flex-grow: 1;
+}
+
+.location__container {
+  display: flex;
+  flex-direction: column;
+  margin-inline: 10px;
+  gap: 20px;
+  margin-block-end: 60px;
+}
