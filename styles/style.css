@@ -22,17 +22,18 @@
 }
 
 .header__title {
-  font-size: 20px;
-  color: var(--title-color);
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
 }
 
 .header__title-name {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   font-family: var(--font-text);
   font-weight: 400;
-  font-size: 40px;
+  font-size: 60px;
   color: var(--title-color);
 }
 
@@ -53,7 +54,6 @@
 .page {
   display: flex;
   flex-direction: column;
-  gap: 100px;
 }
 
 .content {
@@ -71,8 +71,12 @@
   font-weight: 400;
   font-size: 24px;
   text-align: center;
+  margin-block-start: 100px;
 }
 
+.timing__title {
+  margin-block-start: 30px;
+}
 .description {
   display: flex;
   flex-direction: column;
@@ -86,6 +90,8 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
+  margin-block-end: 100px;
+  
 }
 
 .time {
@@ -389,4 +395,9 @@ label input[type=checkbox] {
   margin-inline: 10px;
   gap: 20px;
   margin-block-end: 60px;
+}
+
+
+.city_card{
+  margin-top: 50px;
 }
