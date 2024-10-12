@@ -1,3 +1,7 @@
+body {
+  max-width: 500px;
+}
+
 .bgvideo {
   position: fixed;
   z-index: -1;
@@ -8,8 +12,6 @@
   width: auto;
   height: auto;
 }
-
-
 
 .header {
   display: flex;
@@ -276,10 +278,6 @@ label {
   background-color: transparent;
   outline: 1px solid #000;
   text-align: center;
-}
-
-body {
-  max-width: 500px;
 }
 
 .options {
