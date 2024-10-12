@@ -418,6 +418,7 @@ label input[type=checkbox] {
 
 
 .chevron {
+  display: flex;
   position: absolute;
   width: 28px;
   height: 8px;
@@ -425,7 +426,8 @@ label input[type=checkbox] {
   transform: scale3d(0.5, 0.5, 0.5);
   animation: move 3s ease-out infinite;
   margin-left: 200px;
-  /* margin-block-end: 50px; */
+  margin-top: -53px;
+  align-self: center;
 }
 
 .chevron:first-child {
@@ -482,7 +484,7 @@ label input[type=checkbox] {
   margin-left: -30px;
   font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
   font-size: 12px;
-  color: #fff;
+  color: #000000;
   text-transform: uppercase;
   white-space: nowrap;
   opacity: .25;
